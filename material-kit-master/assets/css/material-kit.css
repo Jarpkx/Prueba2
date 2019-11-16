@@ -999,6 +999,10 @@ pre code {
   background: linear-gradient(60deg,#e759ff,#8c38f2);
 }
 
+.background-img1{
+  background-image: url("../img/examples/clem-onojeghuo.jpg");
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -18069,6 +18073,8 @@ footer .pull-center {
     transform: translate3d(-25px, 0, 0);
     width: 245px;
   }
+
+
 }
 
 /*# sourceMappingURL=kit-free.css.map */
