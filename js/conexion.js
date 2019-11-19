@@ -1,2 +1,6 @@
 let database = new local2json("tienda");
-console.log(database.getusuarios());
+database.getproductos().forEach(function(element) {
+	console.log(element.vendedor);
+});
+
+//console.log(database.getproductos());

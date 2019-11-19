@@ -26,8 +26,9 @@ function local2json(name){
     "apellido":"torres"
   }],
   "productos":[{
+    "id":"0",
     "vendedor":"2",
-    "tipo":"joyas",
+    "tipo":"1",
     "estado":"0",
     "imagen":"../img/perlas.jpg",
     "nombre":"perlas",
@@ -39,8 +40,37 @@ function local2json(name){
     }]
 
   },{
+    "id":"5",
+    "vendedor":"2",
+    "tipo":"1",
+    "estado":"0",
+    "imagen":"../img/perlas.jpg",
+    "nombre":"pendientes",
+    "precio":"100000",
+    "cantidad":"2",
+    "comentarios":[{
+      "nombre":"juana ruiz",
+      "comentario":"bueno para mi"
+    }]
+
+  },{
+    "id":"4",
+    "vendedor":"2",
+    "tipo":"1",
+    "estado":"0",
+    "imagen":"../img/perlas.jpg",
+    "nombre":"collar",
+    "precio":"100000",
+    "cantidad":"2",
+    "comentarios":[{
+      "nombre":"juana ruiz",
+      "comentario":"bueno para mi"
+    }]
+
+  },{
+    "id":"1",
     "vendedor":"1",
-    "tipo":"jeans",
+    "tipo":"3",
     "estado":"1",
     "imagen":"../img/jean.jpg",
     "nombre":"jeans",
@@ -51,8 +81,9 @@ function local2json(name){
       "comentario":"bueno para mi"
     }]
   },{
+    "id":"2",
     "vendedor":"2",
-    "tipo":"camisa",
+    "tipo":"2",
     "estado":"1",
     "imagen":"../img/camisa.jpg",
     "nombre":"camisa",
@@ -63,8 +94,9 @@ function local2json(name){
       "comentario":"bueno para mi"
     }]
   },{
+    "id":"3",
     "vendedor":"3",
-    "tipo":"zapatos",
+    "tipo":"4",
     "estado":"0",
     "imagen":"../img/tacones.jpg",
     "nombre":"tacones",
