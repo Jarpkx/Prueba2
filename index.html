@@ -49,7 +49,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 ml-auto mr-auto">
           <div class="card card-login">
-            <form class="form" method="" action="">
+            <form class="form" onsubmit="guardar()" >
               <div class="card-header card-header-primary text-center">
                 <h4 class="card-title">Login</h4>
               </div>
@@ -80,7 +80,8 @@
                   <input id="pass" type="password" class="form-control" placeholder="Password...">
                 </div>
               <div class="footer text-center">
-                <input type="button" class="btn btn-primary btn-link btn-wd btn-lg" onclick="guardar()" value="Get Started">
+                <!--<input type="submit" class="btn btn-primary btn-link btn-wd btn-lg" value="Get Started">--->
+                <a type="submit" class="btn btn-primary btn-link btn-wd btn-lg" href="./html/home.html">start</a>
               </div>
               <div class="input-group">
                   <a class="input-group-text" href="html/forgot-pass.html">forgot password?</a>
